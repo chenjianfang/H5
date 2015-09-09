@@ -1,0 +1,373 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.laba{
+	display: block;
+	position: absolute;
+	top: 17%;
+	width: 100%;
+	height: auto;
+    -webkit-animation:bb 0.6s linear infinite alternate;
+}
+@-webkit-keyframes bb{
+    100%{
+        -webkit-transform: translateX(20px) scale(1.2);
+    }
+}
+@media (max-height: 500px){
+	.query{
+		bottom: 3%!important;
+	}
+}
+.run{
+	display: block;
+	position: absolute;
+	top: 0%;
+	right: 10%;
+	width: 36%;
+	height: auto;
+	opacity: 0.3;
+	-webkit-animation:cc 3s linear infinite;
+}
+@-webkit-keyframes cc{
+    100%{
+        -webkit-transform: rotate(360deg);
+    }
+}
+.number{
+	display: block;
+	position: absolute;
+	top: 8%;
+	width: 100%;
+	height: auto;
+	-webkit-animation:dd 1s linear infinite alternate;
+}
+@-webkit-keyframes dd{
+    0%,70%{
+        -webkit-transform: scale(1);
+    }
+    100%{
+    	-webkit-transform: scale(1.2);
+    }
+}
+.number_a{
+	display: block;
+	position: absolute;
+	bottom: 11%;
+	width: 100%;
+	height: auto;
+	-webkit-animation:ee 2s linear infinite;
+}
+.number_b{
+	display: block;
+	position: absolute;
+	bottom: 2%;
+	width: 100%;
+	height: auto;
+	-webkit-animation:ee 2s 0.5s linear infinite;
+}
+@-webkit-keyframes ee{
+	0%,40%{
+		-webkit-transform: scale(1);
+	}
+	50%{
+		-webkit-transform: scale(1.4);
+	}
+	60%{
+		-webkit-transform: scale(1);
+	}
+	80%{
+		-webkit-transform: scale(1);
+	}
+	90%{
+		-webkit-transform: scale(1.4);
+	}
+	100%{
+		-webkit-transform: scale(1);
+	}
+}
+/*************开始答题************/
+.question{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.hide{
+	display: none;
+}
+.que_1{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url(images/Q1.jpg) no-repeat;
+	background-size: 100% 100%;
+	z-index: 9;
+}
+.que_2{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url(images/Q2.jpg) no-repeat;
+	background-size: 100% 100%;
+	z-index: 9;
+}
+.que_3{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url(images/Q3.jpg) no-repeat;
+	background-size: 100% 100%;
+	z-index: 9;
+}
+.que_4{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url(images/Q4.jpg) no-repeat;
+	background-size: 100% 100%;
+	z-index: 9;
+}
+.que_5{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url(images/Q5.jpg) no-repeat;
+	background-size: 100% 100%;
+	z-index: 9;
+}
+.que_6{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url(images/Q6.jpg) no-repeat;
+	background-size: 100% 100%;
+	z-index: 9;
+}
+.que_7{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url(images/Q7.jpg) no-repeat;
+	background-size: 100% 100%;
+	z-index: 9;
+}
+.que_8{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url(images/Q8.jpg) no-repeat;
+	background-size: 100% 100%;
+	z-index: 9;
+}
+.que_9{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url(images/Q9.jpg) no-repeat;
+	background-size: 100% 100%;
+	z-index: 9;
+}
+.que_10{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url(images/Q10.jpg) no-repeat;
+	background-size: 100% 100%;
+	z-index: 9;
+}
+.que_11{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url(images/Q11.jpg) no-repeat;
+	background-size: 100% 100%;
+	z-index: 9;
+}
+.que img{
+	width: 100%;
+	height: auto;
+}
+.tap1{
+	position: absolute;
+	width: 74%;
+	left: 12%;
+	bottom: 50%;
+	font-size: 0;
+}
+.tap2{
+	position: absolute;
+	width: 74%;
+	left: 12%;
+	bottom: 42%;
+	font-size: 0;
+}
+.tap3{
+	position: absolute;
+	width: 74%;
+	left: 12%;
+	bottom: 34%;
+	font-size: 0;
+}
+.tap4{
+	position: absolute;
+	width: 74%;
+	left: 12%;
+	bottom: 26%;
+	font-size: 0;
+}
+.share{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url(images/shareBack.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.share img{
+	width: 100%;
+	height: auto;
+}
+.fenshu{
+	position: absolute;
+	width: 33%;
+	top: 10%;
+	left: 24%;
+}
+.wenhao{
+	position: absolute;
+	width: 10%;
+	top: 10%;
+	right: 24%;
+	-webkit-animation:wenhao 1s linear infinite;
+}
+@-webkit-keyframes wenhao{
+	100%{
+		-webkit-transform:scale(1.4);
+	}
+}
+.sharefont{
+	position: absolute;
+	width: 100%;
+	bottom: 12%;
+	-webkit-animation:font 1s linear;
+}
+@-webkit-keyframes font{
+	100%{
+		-webkit-transform:rotateZ(360deg);
+	}
+}
+.res{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url(images/res.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.ref{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url(images/ref.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.mathnum{
+	position: absolute;
+	top: 17%;
+	right: 18%;
+	font-size: 44px;
+	font-weight: 700;
+	color: red;
+}
+.minnum{
+	position: absolute;
+	top: 12%;
+	right: 23%;
+	font-size: 44px;
+	font-weight: 700;
+	color: red;
+}
+.res .ewm{
+	width: 22%;
+	position: absolute;
+	bottom: 3%;
+	left: 39%;
+}
+.ewm img{
+	width: 100%;
+	height: auto;
+}
+.ref .ewm{
+	width: 36%;
+	position: absolute;
+	bottom: 34%;
+	left: 31%;
+}
+.ewm img{
+	width: 100%;
+	height: auto;
+}
+.name{
+	display: block;
+	position: absolute;
+	left: 24%;
+	bottom: 44%;
+	padding: 7px 10px;
+	border-radius: 10px;
+	border:1px solid rgb(62,60,60);
+	outline: 0;
+	font-size: 14px;
+}
+.tel{
+	display: block;
+	position: absolute;
+	left: 24%;
+	bottom: 35%;
+	padding: 7px 10px;
+	border-radius: 10px;
+	border:1px solid rgb(62,60,60);
+	outline: 0;
+	font-size: 14px;
+}
+.submit{
+	display: block;
+	position: absolute;
+	left: 32%;
+	bottom: 25%;
+	padding: 8px 45px;
+	border-radius: 10px;
+	border:0;
+	outline: 0;
+	font-size: 17px;
+	line-height: 1;
+	font-weight: 700;
+	background:rgb(253,170,90);
+}
+.load{
+	display: block;
+	position: fixed;
+	z-index: 99999;
+	background: #eee;
+	width: 100%;
+	height: 100%;
+}
+.load img{
+	position: absolute;
+	top: 30%;
+	left: 38%;
+}
+.load p{
+	display: block;
+	width: 100%;
+	position: absolute;
+	top: 51%;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.myclick{
+	-webkit-tap-highlight-color:rgba(253,81,79,.8);
+	-webkit-tap-highlight-color:transparent;
+}
